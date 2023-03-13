@@ -1,0 +1,53 @@
+.row {
+    
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+
+
+
+.row div{
+    margin-right: 10px;;margin-top: 45px ;
+}
+
+
+
+.banner {
+    position: relative;
+}
+
+.banner .text {
+    top: 0px;
+    position: absolute;
+    margin: 140px;
+    color: floralwhite;
+    left: -65px;
+}
+
+
+
+.neigh {
+    padding-top: 10px;
+    padding-left: 30px;
+    color: rgb(69, 66, 64);
+}
+
+.menu ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+.left li{margin-right: 40px;}
+.right {
+    float: right;
+    
+}
+
+.right li {margin-left: 40px;
+   position: relative;left: -130px;
+}
+
+.menu li {
+    color: rgb(68, 66, 65);
+}
+.menu li a{color: rgb(63, 63, 63);}
